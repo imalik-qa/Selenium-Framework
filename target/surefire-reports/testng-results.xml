@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-25T22:16:54 CDT" name="Suite" finished-at="2022-08-25T22:17:14 CDT" duration-ms="19964">
+    <groups>
+    </groups>
+    <test started-at="2022-08-25T22:16:54 CDT" name="Selenium-Framework" finished-at="2022-08-25T22:17:14 CDT" duration-ms="19964">
+      <class name="com.qaclickacademy.app.LoginTest">
+        <test-method is-config="true" signature="init()[pri:0, instance:com.qaclickacademy.app.LoginTest@4716be8b]" started-at="2022-08-25T22:16:59 CDT" name="init" finished-at="2022-08-25T22:17:01 CDT" duration-ms="2544" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.qaclickacademy.app.LoginTest@4716be8b]" started-at="2022-08-25T22:17:02 CDT" name="loginTest" data-provider="getData" finished-at="2022-08-25T22:17:04 CDT" duration-ms="2333" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.qaclickacademy.app.LoginTest@4716be8b]" started-at="2022-08-25T22:17:04 CDT" name="loginTest" data-provider="getData" finished-at="2022-08-25T22:17:07 CDT" duration-ms="2262" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.qaclickacademy.app.LoginTest@4716be8b]" started-at="2022-08-25T22:17:07 CDT" name="loginTest" data-provider="getData" finished-at="2022-08-25T22:17:09 CDT" duration-ms="2228" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ihjt5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.qaclickacademy.app.LoginTest@4716be8b]" started-at="2022-08-25T22:17:09 CDT" name="loginTest" data-provider="getData" finished-at="2022-08-25T22:17:11 CDT" duration-ms="2221" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4567890]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.qaclickacademy.app.LoginTest@4716be8b]" started-at="2022-08-25T22:17:11 CDT" name="loginTest" data-provider="getData" finished-at="2022-08-25T22:17:13 CDT" duration-ms="2268" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user4`]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[654897]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qaclickacademy.app.LoginTest@4716be8b]" started-at="2022-08-25T22:17:13 CDT" name="tearDown" finished-at="2022-08-25T22:17:14 CDT" duration-ms="158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qaclickacademy.app.LoginTest -->
+      <class name="com.qaclickacademy.app.HomePageTest">
+        <test-method is-config="true" signature="init()[pri:0, instance:com.qaclickacademy.app.HomePageTest@8576fa0]" started-at="2022-08-25T22:16:54 CDT" name="init" finished-at="2022-08-25T22:16:59 CDT" duration-ms="5044" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="navBarTest()[pri:0, instance:com.qaclickacademy.app.HomePageTest@8576fa0]" started-at="2022-08-25T22:17:01 CDT" name="navBarTest" finished-at="2022-08-25T22:17:01 CDT" duration-ms="49" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navBarTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qaclickacademy.app.HomePageTest@8576fa0]" started-at="2022-08-25T22:17:13 CDT" name="tearDown" finished-at="2022-08-25T22:17:13 CDT" duration-ms="129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qaclickacademy.app.HomePageTest -->
+    </test> <!-- Selenium-Framework -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <test name="Selenium-Framework">
+        <classes>
+            <class name="com.qaclickacademy.app.HomePageTest"/>
+            <class name="com.qaclickacademy.app.LoginTest" />
+        </classes>
+    </test>
+</suite>
